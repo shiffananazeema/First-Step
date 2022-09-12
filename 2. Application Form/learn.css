@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Application Form</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <script type="text/javascript" src="register.js"></script>  
+    <body>
+        <h1 align="center"><font size="34">Application Form</font></h1>
+        <center><table aria-setsize="40"  border="1" width="60%">
+         <form name="regform" action="connect.php" method="post">
+               <tr>
+                    <th>
+                        Name:
+                    </th>
+                    <td>
+                        <input type="text" id="name" onkeyup="validate()"> Eg: Shiffana Nazeema A
+                        <div id="errName"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Register No:
+                    </th>
+                    <td>
+                        <input type="text" id="regno" onkeyup="validation()"> Eg: 17ucs284
+                        <div id="errReg"></div> 
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Roll No:
+                    </th>
+                    <td>
+                        <input type="text" id="rollno" onkeyup="validation()"> Eg: 17uw22134
+                        <div id="errRoll"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Gender:
+                    </th>
+                    <td>
+                        <input type="radio" id="gender" onkeyup="validation()">Male
+                        <input type="radio" id="gender" onkeyup="validation()">Female
+                        <div id="errGender"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Degree:
+                    </th>
+                    <td>
+                        <input type="radio" id="degree" onkeyup="validation()">UG
+                        <input type="radio" id="degree" onkeyup="validtion()">PG
+                        <div id="errDegree"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Course:
+                    </th>
+                    <td>
+                        <select id="course"  onkeyup="validation()">
+                        <option>Select Course</option>
+                        <option>B.A (Engilsh)</option>
+                        <option>B.A (Tamil)</option>
+                        <option>B.A (Economics)</option>
+                        <option>B.A (History)</option>
+                        <option>B.A (Urudu)</option>
+                        <option>B.A (Arabic)</option>
+                        <option>B.A (Engilsh)</option>
+                        <option>B.Sc (Computer Science)</option>
+                        <option>B.Sc (Maths)</option>
+                        <option>B.Sc (Physics)</option>
+                        <option>B.Sc (Chemistry)</option>
+                        <option>B.Sc (Biology)</option>
+                        <option>B.Sc (Botony)</option>
+                        <option>B.Sc (Zoology)</option>
+                        <option>B.Sc (Psycology)</option>
+                        <option>B.C.A</option>
+                        <option>B.B.A</option>
+                        <option>B.Com</option>
+                        <option>M.Sc</option>
+                        <option>M.C.A</option>
+                        <option>M.B.A</option>
+                        <option>M.Com</option>
+                        <option>Others</option>
+                    </select>
+                    <div id="errCourse"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Year:
+                    </th>
+                    <td>
+                      <input type="radio" id="year" onkeyup="validation()">I
+                      <input type="radio" id="year" onkeyup="validation()">II
+                      <input type="radio" id="year" onkeyup="validation()">III
+                      <div id="errYear"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        College Name:
+                    </th>
+                    <td>
+                        <input type="text" id="college" onkeyup="validation()"> Eg: Jamal Mohamed College.
+                        <div id="errCollege"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Date of Birth:
+                    </th>
+                    <td>
+                        <select id="dob"  onkeyup="validation()">
+                            <option>Date</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                        </select>
+                        <select id="dob"  onkeyup="validation()">
+                            <option>Month</option>
+                            <option>January</option>
+                            <option>Febuary</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option>December</option>
+                        </select>
+                        <select id="dob"  onkeyup="validation()">
+                            <option>Year</option>
+                            <option>1989</option>
+                            <option>1990</option>
+                            <option>1991</option>
+                            <option>1992</option>
+                            <option>1993</option>
+                            <option>1994</option>
+                            <option>1995</option>
+                            <option>1996</option>
+                            <option>1997</option>
+                            <option>1998</option>
+                            <option>1999</option>
+                            <option>2000</option>
+                            <option>2001</option>
+                            <option>2002</option>
+                        </select>
+                         Age:
+                        <input type="text" id="age">
+                    </td>    
+                </tr>
+                <tr>
+                    <th>
+                        Email ID:
+                    </th>
+                    <td>
+                        <input type="text" id="email" onkeyup="validation()"> Eg: shiffana@gmail.com
+                        <div id="errEmail"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Mobile No:
+                    </th>
+                    <td>
+                        +91
+                        <input type="text" id="mobile" onkeyup="validation()"> Eg: 6374304519
+                        <div id="errMobile"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Father's Name:
+                    </th>
+                    <td>
+                        <input type="text" id="father"  onkeyup="validation()">
+                        <div id="errFather"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Mother's Name:
+                    </th>
+                    <td>
+                        <input type="text" id="mother" onkeyup="validation()">
+                        <div id="errMother"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Address:
+                    </th>
+                    <td>
+                         <textarea id="address" rows="3" cols="50" onkeyup="validation()"></textarea>
+                         <div id="errAddress"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Pincode:
+                    </th>
+                    <td>
+                        <input type="text" id="pin" onkeyup="validation()">
+                        <div id="errPin"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        Blood Group:
+                    </th>
+                    <td>
+                        <select id="blood" onkeyup="validation()">
+                            <option>Blood</option>
+                            <option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                            <option>AB+</option>
+                            <option>AB-</option>
+                        </select>
+                        <div id="errBlood"></div>
+                    </td>
+                </tr>
+            </form>
+            </table>
+            <h3>
+            <button type="button" onclick="validate();finalValidate();location.href='mark.html';">Next>></button></h3>
+            <div id="errFinal"></div>     
+        </center>
+    </body>     
+</html>
+
+
+
+!!javascript
+
+var divs=new Array();
+divs[0]="errName";
+divs[1]="errReg";
+divs[2]="errRoll";
+divs[3]="errGender";
+divs[4]="errDegree";
+divs[5]="errCourse";
+divs[6]="errYear";
+divs[7]="errCollege";
+divs[8]="errDob";
+divs[9]="errEmail";
+divs[10]="errMobile";
+divs[11]="errFather";
+divs[12]="errMother";
+divs[13]="errAddress";
+divs[14]="errPin";
+divs[15]="errBlood";
+
+function validate(){
+    var inputs=new Array();
+    inputs[0]=document.getElementById('name').value;
+    inputs[1]=document.getElementById('regno').value;
+    inputs[2]=document.getElementById('rollno').value;
+    inputs[3]=document.getElementById('gender').value;
+    inputs[4]=document.getElementById('degree').value;
+    inputs[5]=document.getElementById('course').value;
+    inputs[6]=document.getElementById('year').value;
+    inputs[7]=document.getElementById('college').value;
+    inputs[8]=document.getElementById('dob').value;
+    inputs[9]=document.getElementById('email').value;
+    inputs[10]=document.getElementById('mobile').value;
+    inputs[11]=document.getElementById('father').value;
+    inputs[12]=document.getElementById('mother').value;
+    inputs[13]=document.getElementById('address').value;
+    inputs[14]=document.getElementById('pin').value;
+    inputs[15]=document.getElementById('blood').value;
+
+    var errors= new Array();
+    errors[0]="<span>Please enter your Name!</span>";
+    errors[1]="<span>Please enter your Register Number!</span>";
+    errors[2]="<span>Please enter your Roll Number!</span>";
+    errors[3]="<span>Please enter your Gender!</span>";
+    errors[4]="<span>Please enter your Degree!</span>";
+    errors[5]="<span>Please enter your Course!</span>";
+    errors[6]="<span>Please enter your Year!</span>";
+    errors[7]="<span>Please enter your College Name!</span>";
+    errors[8]="<span>Please enter your Date of Birth!</span>";
+    errors[9]="<span>Please enter your E-mail ID!</span>";
+    errors[10]="<span>Please enter your Mobile Number!</span>";
+    errors[11]="<span>Please enter your Father's Name!</span>";
+    errors[12]="<span>Please enter your Mother's Name!</span>";
+    errors[13]="<span>Please enter your Address!</span>";
+    errors[14]="<span>Please enter your Pin-Code!</span>";
+    errors[15]="<span>Please enter your Blood Group!</span>";
+
+    
+    for(i in inputs){
+
+        var errMsg=errors[i];
+        var divMsg=divs[i];
+        if(inputs[i]=="")
+
+            document.getElementById(divMsg).innerHTML=errMsg;
+
+        else if(i==9){
+            var atpos=inputs[i].indexOf("@");
+            var dotpos=inputs[i].lastIndexOf(".");
+            if(atpos<1 || dotpos<atpos+2 || dotpos+2>= inputs[i].length)
+                document.getElementById('errEmail').innerHTML="<span>Enter Valid E-mail adderss!!</span>";
+            else
+                document.getElementById(divMsg).innerHTML="";
+        }else
+            document.getElementById(divMsg).innerHTML="";
+    }
+
+}
+
+    function finalValidate()
+
+    {
+
+         var count = 0;
+
+        for(i=0;i<16;i++)
+
+        {
+
+          var divMsg = divs[i];
+
+          if(document.getElementById(divMsg).innerHTML == "")
+
+               count = count + 1;
+
+        }
+
+       if(count == 16)
+
+         document.getElementById("errFinal").innerHTML = "All the data you entered is correct!!!";
+        else
+            document.getElementById("errFinal").innerHTML="Please enter all the required fields.!!";
+
+    }
+
+    <script type = "text/javascript">
+   <!--
+      // Form validation code will come here.
+      function validate() {
+      
+         if( document.myForm.Name.value == "" ) {
+            alert( "Please provide your name!" );
+            document.myForm.Name.focus() ;
+            return false;
+         }
+         if( document.myForm.EMail.value == "" ) {
+            alert( "Please provide your Email!" );
+            document.myForm.EMail.focus() ;
+            return false;
+         }
+         if( document.myForm.Zip.value == "" || isNaN( document.myForm.Zip.value ) ||
+            document.myForm.Zip.value.length != 5 ) {
+            
+            alert( "Please provide a zip in the format #####." );
+            document.myForm.Zip.focus() ;
+            return false;
+         }
+         if( document.myForm.Country.value == "-1" ) {
+            alert( "Please provide your country!" );
+            return false;
+         }
+         return( true );
+      }
+   //-->
+</script>
+
+<script type = "text/javascript">
+   <!--
+      function validateEmail() {
+         var emailID = document.myForm.EMail.value;
+         atpos = emailID.indexOf("@");
+         dotpos = emailID.lastIndexOf(".");
+         
+         if (atpos < 1 || ( dotpos - atpos < 2 )) {
+            alert("Please enter correct email ID")
+            document.myForm.EMail.focus() ;
+            return false;
+         }
+         return( true );
+      }
+   //-->
+</script>

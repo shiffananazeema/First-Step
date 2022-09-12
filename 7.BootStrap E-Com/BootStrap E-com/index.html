@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mobile Store</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+</html>
+<body>
+<div class="header">
+    <div class="container">
+     <div class="navbar">
+         <div class="logo">
+             <a href="index.html">
+             <img src="images/icon.png" width="75px">
+             </a>
+         </div>
+         <nav>
+             <ul id="menuitem">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="">Products</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Account</a></li>
+                 <li><a href="account.html">Logout</a></li>
+             </ul>
+         </nav>
+         <a href="cart.html">
+         <img src="images/cart.png" width="30px" height="30px">
+         </a>
+         <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"> 
+        </div>
+     <div class="row">
+         <div class="col-2">
+             <h1>Go On with the Trend<br>With Innovative Technology!</h1>
+             <p>Explore all the New Mobiles in the Mobile Store.
+                 Update yourself with the New Technology and Get to know More.
+             </p>
+             <a href="" class="btn">Explore Now &#8594;</a>
+         </div>
+         <div class="col-2">
+            <img src="images/mobiles.png">
+         </div>
+     </div>
+    </div>
+</div>
+
+<div class="categories">
+  
+
+    <div class="small-container">
+        <h2 class="title">New Releases</h2>
+        <div class="row">
+            <div class="col-4">
+                <a href="pocox2.html">
+                <img src="images/x21.jpeg">
+                </a>
+                <h4>POCO X2</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>$250</p>
+            </div>
+            <div class="col-4">
+                <img src="images/c31.jpeg">
+                <h4>POCO C3</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$150</p>
+            </div>
+            <div class="col-4">
+                <img src="images/m31.jpeg">
+                <h4>POCO M3</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$200</p>
+            </div>
+            <div class="col-4">
+                <img src="images/x31.jpeg">
+                <h4>POCO X3</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$250</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="offer">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/offer.png" class="offer-img">
+            </div>
+            <div class="col-2">
+               <p>Exclusively Available on Mobile Store</p>
+               <h1>One Plus Nord</h1>
+               <small>Gaming Mobile for the Young Generation
+                   with the fastest processer ever released in the 
+                   Universe. Fastest Charging and Last Long Performance.
+               </small><br>
+               <a href="" class="btn">Buy Now &#8594;</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App.</h3>
+                <p>For both Android and ios Software.</p>
+                <div class="ap-logo">
+                    <img src="images/playstore.png" width="35%">
+                    <img src="images/appstore.png" width="35%">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/icon.png" >
+                <p>World's No.1 Online Shopping of Mobiles.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Links</h3>
+                <ul>
+                    <li>Blogs</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">&copy; 2021-2030</p>
+    </div>
+</div>
+
+<script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(menuitem.style.maxHeight == "0px")
+        {
+            menuitem.style.maxHeight = "200px";
+        }
+        else
+        {
+            menuitem.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?php
+$name = $_POST['name'];
+$regno = $_POST['regno'];
+$rollno = $_POST['rollno'];
+$gender = $_POST['gender'];
+$degree = $_POST['degree'];
+$course = $_POST['course'];
+$year = $_POST['year'];
+$college = $_POST['college'];
+$dob = $_POST['dob'];
+$age = $_POST['age'];
+$emailid = $_POST['emailid'];
+$mobileno = $_POST['mobileno'];
+$father = $_POST['father'];
+$mother = $_POST['mother'];
+$address = $_POST['address'];
+$pin = $_POST['pin'];
+$blood = $_POST['blood'];
+$Xins = $_POST['Xins'];
+$XB/U = $_POST['XB/U'];
+$Xyear = $_POST['Xyear'];
+$X% = $_POST['X%'];
+$XIIins = $_POST['XIIins'];
+$XIIB/U = $_POST['XIIB/U'];
+$XIIyear = $_POST['XIIyear'];
+$XII% = $_POST['XII%'];
+$ugins = $_POST['ugins'];
+$ugB/U = $_POST['ugB/U'];
+$ugcor = $_POST['ugcor'];
+$ugyear = $_POST['ugyear'];
+$ug% = $_POST['ug%'];
+$pgins = $_POST['pgins'];
+$pgB/U = $_POST['pgB/U'];
+$pgcor = $_POST['pgcor'];
+$pgyear = $_POST['pgyear'];
+$pg% = $_POST['pg%'];
+?>

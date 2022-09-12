@@ -1,0 +1,17 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url(g1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1
+{
+margin-top: 20px;
+padding: 0 0 20px;
+text-align: center;
+font-size: 60px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:#ebe5e5;
+}
